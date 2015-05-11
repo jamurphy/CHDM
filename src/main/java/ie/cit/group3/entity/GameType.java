@@ -13,8 +13,10 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
- * @author Group 3
+ * @author John Stevens
  *	
+ *This class creates an object called GameType that stores the data from the database table of same name.
+ *The attributes this can have are game_id, gamepoints, gamename.
  */
 @Entity
 @Table(name="gametype") //name of table in database
